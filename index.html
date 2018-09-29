@@ -2,7 +2,7 @@
 <html lang="en">
 	<head>
     	<meta charset="utf-8">
-		  <title>JSON Data File</title>
+		  <title>Astronomy Gallery</title>
 
 		<!-- CSS -->
     <link rel="stylesheet" href="css/reset.css">
@@ -20,32 +20,27 @@
 	</head>
 	<body>
   
+  
 <div class="container-fluid">
+  <div class="row">
+    <div class="col-12 title">
+      <h2>Random Astronomy Pictures from NASA</h2>
+      <button id="reset" type="submit" class="button btn-primary" onclick="window.location.reload()">Get new random pic!</button>
+    </div>
+  </div>
     <div class="row">
-      <div class="col-8">
-        <div id="map"></div>
+      <div class="col-6">
+        <div id="astroPic"></div>
+        <div id="todaysPic"></div>
       </div>
-      <div class="col-4">
+      <div class="col-6">
           <div id="info"></div>
-          <p>Very basic file to show how to get JSON data from URL</p>
-          <p id="demo"></p>
-          <p id="demo1"></p>
         </div>
     </div>
   </div>
-   
-
+  
 	</body>
 </html>
 
 
 
-
-
-  <!-- <div id="map" class="column"></div>
-  <div id="info" class="column">
-    <button class="btn btn-primary">Test</button>
-    <h1>Earthquakes from the past week:</h1>
-    <p>In the last week, there have been the following earthquakes:</p>
-    <p id="demo"></p>
-  </div> -->
